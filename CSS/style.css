@@ -1,0 +1,93 @@
+.nav {
+    background-color: rgba(0, 0, 0, .6);
+    backdrop-filter: blur(3px);
+    padding: 30px;
+    position: sticky;
+    top: 0px;
+
+}
+
+.body {
+    margin: 0;
+    height: 100%;
+    background-image: url(/CSS/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg);
+    font-family: "Merriweather";
+    backdrop-filter: blur(8px);
+
+}
+
+.logo {
+    width: 120px;
+    border-radius: 50%;
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    z-index: 1;
+}
+
+/*  
+.Place{
+    position: fixed; top: 5px; left: 35%;
+    
+}*/
+.sidebar {
+    height: 486px;
+    ;
+    width: 160px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    overflow-x: hidden;
+
+    font-family: 'Lexend';
+    color: white
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.into {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Space Grotesk';
+    color: white
+}
+
+h2 {
+    font-family: 'Lexend';
+    color: white
+}
+
+.FirstP {
+    font-family: 'Lexend';
+    font-weight: 1000;
+    text-align: center;
+    color: white;
+    font-size: larger;
+
+
+}
+
+h3 {
+    font-family: 'Lexend';
+    color: white
+}
+
+.Thebackbutton {
+    text-align: center;
+    position: relative;
+    top: 400px;
+}
